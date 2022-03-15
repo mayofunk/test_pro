@@ -10,6 +10,8 @@ fn main() {
     loop {
         println!("input your guess!");
         println!(" (secret# is: [{}])", secret);
+
+        println!("s guess!!!! blablalbla");
         
         let mut guess = String::new();
         

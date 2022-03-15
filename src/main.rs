@@ -36,6 +36,7 @@ fn main() {
             Ordering::Greater => println!("Too Big"),
             Ordering::Equal => {
                 println!("Yay! you win!");
+                println!("Yay! you win!");
                 break;
             },
         }

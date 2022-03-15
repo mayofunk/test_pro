@@ -29,7 +29,20 @@ fn main() {
             },
         }; 
         
+
+        //
         println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+
+        println!("you guessed [{}]", guess);
+
+        println!("you guessed [{}]", guess);
+        println!("you guessed [{}]", guess);
+
         
         match guess.cmp(&secret) {
             Ordering::Less => println!("Too small"),
